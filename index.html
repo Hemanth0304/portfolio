@@ -4,63 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Dynamic Responsive Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* General Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Basic Styling */
+        /* Custom Styling */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             background: #f4f4f4;
-        }
-
-        /* Header and Navigation */
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1000px;
-            margin: auto;
-            padding: 0 20px;
-        }
-
-        .nav-links {
-            list-style: none;
-            display: flex;
-        }
-
-        .nav-links li {
-            margin-left: 20px;
-        }
-
-        .nav-links a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 18px;
-        }
-
-        .burger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-        }
-
-        .burger div {
-            width: 25px;
-            height: 3px;
-            background: #fff;
-            margin: 4px;
         }
 
         /* Hero Section */
@@ -78,7 +29,7 @@
             max-width: 700px;
         }
 
-        .btn {
+        .btn-custom {
             display: inline-block;
             padding: 10px 20px;
             margin-top: 20px;
@@ -112,102 +63,96 @@
             padding: 20px;
             position: relative;
         }
-
-        /* Responsive Styling */
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-                flex-direction: column;
-            }
-
-            .nav-links li {
-                margin: 10px 0;
-            }
-
-            .burger {
-                display: flex;
-            }
-        }
-
-        @media (max-width: 768px) {
-            #home {
-                height: 80vh;
-            }
-        }
     </style>
 </head>
 <body>
 
 <header>
-    <nav>
-        <div class="logo">MyLogo</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="burger">
-            <div></div>
-            <div></div>
-            <div></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">MyLogo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 </header>
 
-<section id="home">
-    <div class="hero-text">
-        <h1>Welcome to My Website</h1>
-        <p>Dynamic, Responsive, and Modern</p>
-        <a href="#about" class="btn">Learn More</a>
+<section id="home" class="d-flex align-items-center">
+    <div class="container">
+        <div class="hero-text">
+            <h1>Welcome to My Website</h1>
+            <p>Dynamic, Responsive, and Modern</p>
+            <a href="#about" class="btn btn-custom">Learn More</a>
+        </div>
     </div>
 </section>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>This section is about me. I’m a web developer with a passion for creating beautiful and functional websites.</p>
-</section>
-
-<section id="services">
-    <h2>Services</h2>
-    <div class="service-card">
-        <h3>Web Design</h3>
-        <p>Creating aesthetically pleasing and responsive designs.</p>
-    </div>
-    <div class="service-card">
-        <h3>Development</h3>
-        <p>Building dynamic websites and web applications.</p>
-    </div>
-    <div class="service-card">
-        <h3>SEO</h3>
-        <p>Optimizing your site for search engines to improve visibility.</p>
+<section id="about" class="py-5">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>This section is about me. I’m a web developer with a passion for creating beautiful and functional websites.</p>
     </div>
 </section>
 
-<section id="contact">
-    <h2>Contact Me</h2>
-    <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-    </form>
+<section id="services" class="py-5">
+    <div class="container">
+        <h2>Services</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="service-card p-4">
+                    <h3>Web Design</h3>
+                    <p>Creating aesthetically pleasing and responsive designs.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="service-card p-4">
+                    <h3>Development</h3>
+                    <p>Building dynamic websites and web applications.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="service-card p-4">
+                    <h3>SEO</h3>
+                    <p>Optimizing your site for search engines to improve visibility.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<footer>
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer class="py-4">
     <p>&copy; 2024 My Dynamic Website. All rights reserved.</p>
 </footer>
 
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const burger = document.querySelector('.burger');
-        const navLinks = document.querySelector('.nav-links');
-
-        burger.addEventListener('click', () => {
-            navLinks.classList.toggle('nav-active');
-        });
-    });
-</script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

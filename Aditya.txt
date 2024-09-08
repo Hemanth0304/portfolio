@@ -1,16 +1,35 @@
-IsEditEnabled = 
-    // Condition for Trade_Press role
-    (userRole == Resource.Trade_Press &&
-        st.Name != Resource.Web_Inprogress &&
-        st.Name != Resource.Voice_Inprogress &&
-        st.Name != Resource.Admin_InProgress &&
-        st.Name != Resource.QC_Inprogress &&
-        userId == cpd.UpdatedBy) ||
+Aditya@Sinha:~$ cat aditya113141.txt
+Hi, I'm Hemanth Ram R.
+Businessman, entrepreneur, Dreamer, Doer. Too Lazy to maintain this portfolio website :P Check my LinkedIn instead
 
-    // Condition for Admin role
-    (userRole == Resource.Admin &&
-        st.Name != Resource.Web_Inprogress &&
-        st.Name != Resource.Voice_Inprogress &&
-        st.Name != Resource.TradePress_Inprogress &&
-        st.Name != Resource.QC_Inprogress &&
-        userId == cpd.UpdatedBy);
+Aditya@Sinha:~$ Contact Me 
+Email addresses : sharkatocean@gmail.com
+
+Phone Number : +91-8838475275
+
+LinkedIn : Hemanth-Ram-R
+
+Aditya@Sinha:~$ Fun Fact about me
+I hate studying :P
+
+Aditya@Sinha:~$ Quote of the Day 
+Everyone is a loser till they decide to do something about it.
+
+Aditya@Sinha:~$ Profile
+Experienced Software Engineer with 3 years of expertise in .NET Core, C#, and MEAN Stack development. Proficient in creating dynamic interfaces with Angular and React. Strong problem-solving abilities, attention to detail, and a track record of delivering high-quality solutions. Collaborative team player with a passion for innovation and staying up-to-date with industry trends. Committed to continuous learning and driving software engineering excellence.
+
+Aditya@Sinha:~$ Work Experience 
+Associate Software Developer - Merit Data and Technology Pvt. Ltd, Chennai
+April 2023 - Present
+- Developed and maintained robust microservices using the .NET EF Core framework, employing its powerful ORM capabilities to seamlessly interact with the MySQL database.
+- Integrated React framework to craft sophisticated and intuitive user interfaces, enhancing user experience and driving user engagement.
+- Demonstrated expertise in designing and implementing scalable microservices architecture, leveraging the robustness of .NET and the reliability of MySQL for efficient data management and processing.
+- Conducted comprehensive testing and meticulous debugging of React components, .NET APIs, and MySQL queries, guaranteeing the delivery of reliable, high-quality software solutions.
+
+Trainee Software Engineer - Merit Data and Technology Pvt. Ltd, Chennai
+Dec 2021 - Apr 2023
+- Developed expertise in .NET Core, C#, MEAN Stack, Angular, .NET Framework, and ASP.NET Web API.
+- Gained proficiency in Angular: Reactive forms, form validations, and form groups. Skilled in utilizing Angular Materials for CDK Drag and Drop and Animations. 
+- Experienced in implementing OAuth 2 authentication with Firebase and GitHub. 
+- Knowledgeable in lazy loading NgModules, handling HTTP requests with interceptors, and working with templates and directives.
+- Gained experience in handling server-side development using Node.js.

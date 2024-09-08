@@ -1,24 +1,24 @@
-Aditya@Sinha:~$ cat aditya113141.txt
+Hemanth@RamR:~$ cat hemanth.txt
 Hi, I'm Hemanth Ram R.
-Businessman, entrepreneur, Dreamer, Doer. Too Lazy to maintain this portfolio website :P Check my LinkedIn instead
+Businessman, entrepreneur, Dreamer, Doer. Too Lazy to maintain this portfolio website :P Check my LinkedIn instead.
 
-Aditya@Sinha:~$ Contact Me 
-Email addresses : sharkatocean@gmail.com
+Hemanth@RamR:~$ Contact Me
+Email addresses : hemanthramr@gmail.com
 
 Phone Number : +91-8838475275
 
 LinkedIn : Hemanth-Ram-R
 
-Aditya@Sinha:~$ Fun Fact about me
+Hemanth@RamR:~$ Fun Fact about me
 I hate studying :P
 
-Aditya@Sinha:~$ Quote of the Day 
+Hemanth@RamR:~$ Quote of the Day
 Everyone is a loser till they decide to do something about it.
 
-Aditya@Sinha:~$ Profile
+Hemanth@RamR:~$ Profile
 Experienced Software Engineer with 3 years of expertise in .NET Core, C#, and MEAN Stack development. Proficient in creating dynamic interfaces with Angular and React. Strong problem-solving abilities, attention to detail, and a track record of delivering high-quality solutions. Collaborative team player with a passion for innovation and staying up-to-date with industry trends. Committed to continuous learning and driving software engineering excellence.
 
-Aditya@Sinha:~$ Work Experience 
+Hemanth@RamR:~$ Work Experience
 Associate Software Developer - Merit Data and Technology Pvt. Ltd, Chennai
 April 2023 - Present
 - Developed and maintained robust microservices using the .NET EF Core framework, employing its powerful ORM capabilities to seamlessly interact with the MySQL database.

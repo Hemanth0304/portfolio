@@ -1,0 +1,16 @@
+IsEditEnabled = 
+    // Condition for Trade_Press role
+    (userRole == Resource.Trade_Press &&
+        st.Name != Resource.Web_Inprogress &&
+        st.Name != Resource.Voice_Inprogress &&
+        st.Name != Resource.Admin_InProgress &&
+        st.Name != Resource.QC_Inprogress &&
+        userId == cpd.UpdatedBy) ||
+
+    // Condition for Admin role
+    (userRole == Resource.Admin &&
+        st.Name != Resource.Web_Inprogress &&
+        st.Name != Resource.Voice_Inprogress &&
+        st.Name != Resource.TradePress_Inprogress &&
+        st.Name != Resource.QC_Inprogress &&
+        userId == cpd.UpdatedBy);
